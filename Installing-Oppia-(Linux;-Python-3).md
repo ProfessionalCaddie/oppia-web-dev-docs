@@ -140,15 +140,15 @@ For your virtual environment, we recommend you use [pyenv](https://github.com/py
 ```bash
 exec "$SHELL"
 ```
-4. Now you can install Python 3.8.15 and the associated pip like this:
+4. Now you can install Python 3.9 and the associated pip like this:
 
    ```console
-   $ pyenv install 3.8.15
-   installing python-3.8.15...
+   $ pyenv install 3.9
+   installing python-3.9...
    patching file misc/news.d/next/build/2021-10-11-16-27-38.bpo-45405.isfdw5.rst
    patching file configure
    patching file configure.ac
-   installed python-3.8.15 to /home/user/.pyenv/versions/3.8.15
+   installed python-3.9 to /home/user/.pyenv/versions/3.9
    ```
 
 5. Install direnv
@@ -192,7 +192,7 @@ exec "$SHELL"
    with this content:
 
     ```console
-    use python 3.8.15
+    use python 3.9
     ```
 
     Then run this command in the same folder:
@@ -412,21 +412,21 @@ On Arch Linux, you should follow these instructions to set up your virtual envir
 
 3. Reload your shell or open a new terminal window to load your updated `.bashrc`, `.zshrc`, or `config.fish`
 
-4. Now you can install Python 3.8.15 and the associated pip like this:
+4. Now you can install Python 3.9 and the associated pip like this:
 
    ```console
-   $ pyenv install 3.8.15
-   installing python-3.8.15...
+   $ pyenv install 3.9
+   installing python-3.9...
    patching file misc/news.d/next/build/2021-10-11-16-27-38.bpo-45405.isfdw5.rst
    patching file configure
    patching file configure.ac
-   installed python-3.8.15 to /home/user/.pyenv/versions/3.8.1
+   installed python-3.9 to /home/user/.pyenv/versions/3.8.1
    ```
 
 5. Create a virtual environment for oppia:
 
    ```console
-   $ pyenv virtualenv 3.8.15 oppia
+   $ pyenv virtualenv 3.9 oppia
    ...
    $ pyenv versions
    ...
